@@ -1,9 +1,9 @@
-/* Based on Alex Arnell's inheritance implementation. */
+/* 基于 Alex Arnell的继承实现. */
 
-/** section: Language
- * class Class
+/** 章节: 语言
+ * 类 Class
  *
- *  Manages Prototype's class-based OOP system.
+ *  管理Prototype基于Class的面向对象编程系统.
  *
  *  Refer to Prototype's web site for a [tutorial on classes and
  *  inheritance](http://prototypejs.org/learn/class-inheritance).
