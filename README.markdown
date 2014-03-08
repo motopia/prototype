@@ -1,36 +1,32 @@
 Prototype
 =========
 
-#### An object-oriented JavaScript framework ####
+#### 一个面向对象的JavaScript框架 ####
 
-Prototype is a JavaScript framework that aims to ease development of dynamic 
-web applications.  It offers a familiar class-style OO framework, extensive
-Ajax support, higher-order programming constructs, and easy DOM manipulation.
+Prototype 是一个简化开发动态web应用的JavaScript框架。它提供了一个非常熟悉的`class-style`面向对象的风格的框架,扩展了Ajax支持，高级编程结构，易用的DOM操作。
 
-### Targeted platforms ###
+### 支持平台 ###
 
-Prototype currently targets the following platforms:
+当前支持如下平台:
 
-* Microsoft Internet Explorer for Windows, version 6.0 and higher
-* Mozilla Firefox 1.5 and higher
-* Apple Safari 2.0.4 and higher
-* Opera 9.25 and higher
-* Chrome 1.0 and higher
+* 微软Windows系统IE6或者更高版本，
+* 火狐浏览器Mozilla Firefox 1.5 and higher
+* 苹果浏览器Apple Safari 2.0.4 and higher
+* 欧朋浏览器Opera 9.25 and higher
+* 谷歌浏览器Chrome 1.0 and higher
 
-Using Prototype
+使用 Prototype
 ---------------
 
-To use Prototype in your application, download the latest release from the 
-Prototype web site (<http://prototypejs.org/download>) and copy 
-`dist/prototype.js` to a suitable location. Then include it in your HTML
-like so:
+要在你应用中使用Prototype,可从Prototype(<http://prototypejs.org/download>) 站点下载最新版本，或者复制该资源库目录下`dist/prototype.js`的源文件到你需要的位置。在你HTML引用他。
+像这样:
 
     <script type="text/javascript" src="/path/to/prototype.js"></script>
 
-### Building Prototype from source ###
+### 使用资源文件来构建Prototype ###
 
-`prototype.js` is a composite file generated from many source files in 
-the `src/` directory. To build Prototype, you'll need:
+`prototype.js` 是由该目录`src/`下许多个资源文件合并生产的一个复合文件。为了构建它，
+你需要:
 
 * a copy of the Prototype source tree, either from a distribution tarball or
   from the Git repository (see below)
@@ -38,26 +34,26 @@ the `src/` directory. To build Prototype, you'll need:
 * Rake--Ruby Make (<http://rake.rubyforge.org/>)
 * RDoc, if your Ruby distribution does not include it
 
-From the root Prototype directory,
+定位到prototype根目录,
 
 * `rake dist` will preprocess the Prototype source using Sprockets and 
   generate the composite `dist/prototype.js`.
 * `rake package` will create a distribution tarball in the 
   `pkg/` directory.
 
-Contributing to Prototype
+贡献Prototype
 -------------------------
 
-Check out the Prototype source with 
+用git获取 Prototype资源库，步骤如下
 
     $ git clone git://github.com/sstephenson/prototype.git
     $ cd prototype
     $ git submodule init
     $ git submodule update vendor/sprockets vendor/pdoc vendor/unittest_js
 
-Find out how to contribute: <http://prototypejs.org/contribute>.
+了解如何贡献: <http://prototypejs.org/contribute>.
 
-Documentation
+文档
 -------------
 
-Please see the online Prototype API: <http://api.prototypejs.org>.
+请查阅在线PrototypeAPI: <http://api.prototypejs.org>.
