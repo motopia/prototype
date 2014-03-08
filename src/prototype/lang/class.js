@@ -5,13 +5,14 @@
  *
  *  管理Prototype基于Class的面向对象编程系统.
  *
- *  Refer to Prototype's web site for a [tutorial on classes and
- *  inheritance](http://prototypejs.org/learn/class-inheritance).
+ *  Prototype站点提到了一篇类和继承的教程
+ *  http://prototypejs.org/learn/class-inheritance).
 **/
 var Class = (function() {
   
-  // Some versions of JScript fail to enumerate over properties, names of which 
-  // correspond to non-enumerable properties in the prototype chain
+  // JScript中的某些版本不能枚举的属性，其中的名称
+  
+  // 对应于原型链中不能枚举的属性
   var IS_DONTENUM_BUGGY = (function(){
     for (var p in { toString: 1 }) {
       // check actual property name, so that it works with augmented Object.prototype
