@@ -1,7 +1,7 @@
-/** section: Ajax
+/** 章节: Ajax
  *  class Ajax.Request
  *
- *  Initiates and processes an Ajax request.
+ *  Initiates and processes an Ajax request.发起兵处理Ajax请求
  *
  *  [[Ajax.Request]] is a general-purpose class for making HTTP requests which
  *  handles the life-cycle of the request, handles the boilerplate, and lets
